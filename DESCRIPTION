@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Ian",
            family = "Laga",
            role = c("aut", "cre"),
-           email = "iul25@psu.edu")
+           email = "ilaga25@gmail.com"")
 Description: There are the well known colMeans and rowMeans functions. However, calculating column and row variances, medians, and standard deviations are not included in Base R packages. This package fills that gap.
 URL: https://github.com/ilaga/mypackage
 License: MIT + file LICENSE
