@@ -1,0 +1,37 @@
+---
+title: "mypackage Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+So you want to calculate column and row variances of your matrix, but are frustrated that `rowVars` doesn't exist? Well look no further. First, let's load `mypackage`.
+
+```{r setup}
+library(mypackage)
+```
+
+Now to calculate those pesky row and column variances, just use the `colVars` and `rowVars` functions!
+
+```{r}
+mat <- rbind(
+  c(1, 2, 7),
+  c(3, 5, 9),
+  c(5, 6, 1)
+)
+
+rowVars(mat)
+colVars(mat)
+
+```
+
+Isn't that neat?

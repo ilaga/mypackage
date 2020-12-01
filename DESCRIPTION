@@ -1,16 +1,22 @@
 Package: mypackage
-Title: What the Package Does (One Line, Title Case)
+Title: Makes Columns and Row Operations Easier
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Ian",
+           family = "Laga",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "iul25@psu.edu")
+Description: There are the well known colMeans and rowMeans functions. However, calculating column and row variances, medians, and standard deviations are not included in Base R packages. This package fills that gap.
+URL: https://github.com/ilaga/mypackage
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    stats
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
