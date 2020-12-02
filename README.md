@@ -14,3 +14,10 @@ The main walkthrough is provided in the Walkthrough.pdf powerpoint and
 relies heavily on [R Packages book](https://r-pkgs.org/index.html) by
 Hadley Wickham and Jenny Bryan. This workshop shortens the contents of
 the book into a 45 minute presentation.
+
+``` r
+install.packages(c("devtools","roxygen2", "usethis"))
+library(devtools)
+library(roxygen2)
+library(usethis)
+```

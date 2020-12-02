@@ -1,5 +1,5 @@
 #' @name Vars
-#' @title Calculate column variances
+#' @title Calculate column and row variances
 #'
 #' Form row and column variances for numeric arrays
 #'
